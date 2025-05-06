@@ -45,7 +45,7 @@ The second script (`2_Kenya_DSM_Modeling_sfv.js`) requires specific data assets,
 3. **Save Your Script**:
    - Click **Save** in GEE, give your script a name (e.g., `Kenya_Covariates`), and save it to your GEE repository. It can be any name, I just suggest using a sequence, e.g., `0, 1, 2`; `a, b, c`, etc.
 
-#### If you are new to git hub and more comfortable working locally, as **second option**, you can **download the entire project to your computer, then copy-paste to GEE**. 
+### As **second option**, in case you are new to git hub and more comfortable working locally, you can **download the entire project to your computer, then copy-paste to GEE**. 
 
 The code is stored in a GitHub repository. If you’re new to Git, you can download the files as a ZIP archive.
 
