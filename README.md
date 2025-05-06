@@ -33,7 +33,7 @@ Before running the code, ensure you’re ready to use GEE.
 
 The easiest way is to **copy directly from GitHub and paste into GEE**. Do this for `0_gee_notions.js`, `1_Kenya_covariates_preparation_sfv.js`, and `2_Kenya_DSM_Modeling_sfv.js`.
 
-The second script (`2_Kenya_DSM_Modeling_sfv.js`) requires specific data assets, so you’ll need to upload it (instructions below).
+The second script (`2_Kenya_DSM_Modeling_sfv.js`) requires a data asset that you needs to upload in your account (instructions below).
 
 1. **Open a Code File**:
    - Go to [0_gee_notions code](https://github.com/Gelsleichter/DSM_GEE_M_Kenya/blob/main/0_gee_notions.js), using your keyboard press `Ctrl+A` and `Ctrl+C` to select all and copy, then go to your GEE account, create a script and paste it `Ctrl+V`. (in Mac replace `Ctrl` by `Cmd`.
