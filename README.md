@@ -75,16 +75,15 @@ The code is stored in a GitHub repository. If you’re new to Git, you can downl
    - Open with Notepad (right-click, open with, choose Notepad), then copy and paste.
   
    **Paste and paste into GEE, as described above**
-  
+
+
 ### Step 3: Uploading the sampling points
 
 The `2_Kenya_DSM_Modeling_sfv.js` script requires a specific data asset `sample_points_mk_soc_0_20cm.csv` that needs to be uploaded in GEE. 
 
 You can find it from [sample_points_mk_soc_0_20cm data](https://github.com/Gelsleichter/DSM_GEE_M_Kenya/blob/main/sample_points_mk_soc_0_20cm.csv).
 
-How to download it:
-
-1. **Check for Data Files**:
+1. **How to download it**:
    - In the upper right corner, you will have `Raw`, `two-squares`, and a button to `download`, click on this button, to have the `sample_points_mk_soc_0_20cm.csv`.
 
 2. **Upload Data to GEE**:
