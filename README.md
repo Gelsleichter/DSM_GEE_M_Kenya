@@ -24,7 +24,7 @@ Before running the code, ensure you’re ready to use GEE.
      - [https://www.youtube.com/watch?v=O9iyjs4w-8I](https://www.youtube.com/watch?v=O9iyjs4w-8I)  (video)
 
 2. **Familiarize Yourself with the GEE Interface**:
-   - The GEE Code Editor has a script panel (left), a map area (center), and a console (right).
+   - The GEE Code Editor has a script, docs, and assets panel (left), code editor (center), map area (center-bottom), and a console (right).
    - You’ll paste the code into the script panel and run it to see results on the map or console.
 
 ---
