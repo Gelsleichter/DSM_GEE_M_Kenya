@@ -45,7 +45,8 @@ The second script (`2_Kenya_DSM_Modeling_sfv.js`) requires specific data assets,
 3. **Save Your Script**:
    - Click **Save** in GEE, give your script a name (e.g., `Kenya_Covariates`), and save it to your GEE repository. It can be any name, I just suggest using a sequence, e.g., `0, 1, 2`; `a, b, c`, etc.
 
-### As **second option**, in case you are new to git hub and more comfortable working locally, you can **download the entire project to your computer, then copy-paste to GEE**. 
+## As **second option** 
+### In case you are new to git hub and more comfortable working locally, you can **download the entire project to your computer, then copy-paste to GEE**. 
 
 The code is stored in a GitHub repository. If you’re new to Git, you can download the files as a ZIP archive.
 
@@ -74,23 +75,25 @@ The code is stored in a GitHub repository. If you’re new to Git, you can downl
   
    **Paste and paste into GEE, as described above**
   
-### Option 2: Running the DSM Modeling Script (`2_Kenya_DSM_Modeling_sfv.js`)
+### Step 3: Uploading the sampling points
 
-The `2_Kenya_DSM_Modeling_sfv.js` script requires specific data asset `sample_points_mk_soc_0_20cm` that isn’t publicly available in GEE. You’ll need to download these from GitHub also, and upload them to your GEE account.
+The `2_Kenya_DSM_Modeling_sfv.js` script requires a specific data asset `sample_points_mk_soc_0_20cm.csv` that needs to be uploaded in GEE. 
+
+You can find it from [sample_points_mk_soc_0_20cm data](https://github.com/Gelsleichter/DSM_GEE_M_Kenya/blob/main/sample_points_mk_soc_0_20cm.csv).
+
+How to download it:
 
 1. **Check for Data Files**:
-   - In the unzipped GitHub folder, look for data files like shapefiles (e.g., `bbox_shp_buff_2km.shp`) or GeoTIFFs (e.g., `predictors_m_kenya_epsg_4326.tif`).
-   - If these aren’t in the repository, ask your instructor for the data files.
+   - In the upper right corner, you will have `Raw`, `two-squares`, and a button to `download`, click on this button, to have the `sample_points_mk_soc_0_20cm.csv`.
 
 2. **Upload Data to GEE**:
    - In the GEE Code Editor, go to the **Assets** tab (left panel).
-   - Click **New** > **Table** (for shapefiles) or **Image** (for GeoTIFFs).
-   - **For Shapefiles**:
-     - Upload the `.shp`, `.shx`, `.dbf`, and `.prj` files together.
-     - Name the asset (e.g., `bbox_shp_buff_2km`) and click **OK**.
-   - **For GeoTIFFs**:
-     - Upload the `.tif` file.
-     - Name the asset (e.g., `predictors_m_kenya_epsg_4326`) and click **OK**.
+   - Click **New** > **Table Upload** for `CSV file (.csv)`.
+   - **For CSV file (.csv)**:
+     - Click the `Select` red button.
+     - Choose the file `sample_points_mk_soc_0_20cm.csv` from your computer.
+     - In the field "X column" place `x`, and "Y column" place `y`, both small leters.
+     - Click **UPLOAD** (no need to rename).
    - Wait for the upload to complete (you’ll see the asset in your Assets list).
 
 3. **Update the Script**:
@@ -107,20 +110,22 @@ The `2_Kenya_DSM_Modeling_sfv.js` script requires specific data asset `sample_po
      ```
    - Save the updated script.
 
-4. **Copy, Paste, and Run**:
-   - Copy the updated script from your text editor.
-   - Paste it into a new GEE script (as described in Option 1).
-   - Click **Run** to execute. The script will generate a soil organic carbon (SOC) map and metrics.
+---
 
-5. **Check Outputs**:
-   - Look at the map for the SOC map and points.
-   - Check the console for metrics like RMSE and R².
-   - If you see errors, verify your asset paths and ensure the data uploaded correctly.
+### Step 4: Running (we will do it together, but you can explore and try yourself before)
+
+- **Run**: `1_Kenya_covariates_preparation_sfv.js`
+- **On Tab Tasks** (upper right) click on `RUN` button to execute the task: `Covariates_Kenya_to_assets` (the `Covariates_Kenya_to_drive` is not necessary, but optional). 
+- **Run**: `2_Kenya_DSM_Modeling_sfv.js` (remember to do the adjustments above). This script is mostly commented, and we will reveal it step by step.
+
+**Expected Outputs**:
+- A map for the SOC map and points.
+- Metrics like RMSE and R² in the console.
+- If you see errors, verify your asset paths and ensure the data is uploaded correctly.
 
 ---
 
-
-## Step 4: Exploring the Results
+## Exploring the Results
 
 - **Map Outputs**: The scripts generate layers like elevation (DEM), NDVI, SAVI, and SOC maps. Toggle layers in the GEE map (top-right) to view them.
 - **Console Outputs**: Check printed information like band names, resolutions, and model metrics.
@@ -132,8 +137,6 @@ The `2_Kenya_DSM_Modeling_sfv.js` script requires specific data asset `sample_po
 
 - **GEE Datasets**: Explore available datasets at [developers.google.com/earth-engine/datasets](https://developers.google.com/earth-engine/datasets).
 - **Free GEE Course**: Learn more with this [free course](https://courses.spatialthoughts.com/end-to-end-gee.html).
-- **GEE Documentation**: Refer to [developers.google.com/earth-engine](https://developers.google.com/earth-engine) for help.
-- **Ask for Help**: If you’re stuck, contact your instructor or classmates.
 
 ---
 
@@ -147,4 +150,4 @@ The `2_Kenya_DSM_Modeling_sfv.js` script requires specific data asset `sample_po
 
 ---
 
-Happy mapping! If you have questions, reach out to your instructor. Enjoy exploring Mount Kenya’s environmental data with Google Earth Engine! 🌍
+Happy mapping! If you have questions, reach me out. Enjoy exploring Mount Kenya’s environmental data with Google Earth Engine! 🌍
