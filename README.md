@@ -1,4 +1,4 @@
-# Getting Started with Google Earth Engine (GEE) Code for Mount Kenya Covariates
+# Getting Started with Digital Soil Mapping (DSM) in Google Earth Engine (GEE) -- Soil Organic Carbon (SOC) at Mount Kenya
 
 Welcome! This guide will walk you through how to access and use the Google Earth Engine (GEE) code for the Mount Kenya covariates preparation project. The code is hosted here on GitHub. Let's see how to download it, prepare the files, and run them in GEE. 
 
