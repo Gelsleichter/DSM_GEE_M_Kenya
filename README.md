@@ -20,7 +20,7 @@ Before running the code, ensure you’re ready to use GEE.
    - Open [code.earthengine.google.com](https://code.earthengine.google.com/) in your browser.
    - Sign in with your Google account. If you’re new, follow the prompts to register for GEE (it may take a day for approval).
    - How to register:
-     - [code.earthengine.google.com](https://courses.spatialthoughts.com/gee-sign-up.html) (text)
+     - [https://courses.spatialthoughts.com/gee-sign-up.html](https://courses.spatialthoughts.com/gee-sign-up.html) (text)
      - [https://www.youtube.com/watch?v=O9iyjs4w-8I](https://www.youtube.com/watch?v=O9iyjs4w-8I)  (video)
 
 2. **Familiarize Yourself with the GEE Interface**:
