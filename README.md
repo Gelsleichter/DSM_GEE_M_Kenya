@@ -135,8 +135,72 @@ You can find it from [sample_points_mk_soc_0_20cm data](https://github.com/Gelsl
 
 ## Useful Resources
 
+### About GEE
+
 - **GEE Datasets**: Explore available datasets at [developers.google.com/earth-engine/datasets](https://developers.google.com/earth-engine/datasets).
 - **Free GEE Course**: Learn more with this [free course](https://courses.spatialthoughts.com/end-to-end-gee.html).
+
+### Papers about DSM
+
+Digital Soil Mapping (DSM) is an exciting field that uses digital tools, geographic information systems (GIS), and machine learning to create fine maps. 
+Below is a list of scientific articles and resources on DSM, focusing on foundational concepts, clear explanations, and practical applications. 
+
+- McBratney, A. B., Mendonça Santos, M. L., & Minasny, B. (2003). "On digital soil mapping."
+This seminal paper introduces the concept of DSM in a clear, foundational way. It outlines the "scorpan" model (soil, climate, organisms, relief, parent material, age, and spatial position), which is a core framework for DSM. The article traces the history and principles of DSM, making it an excellent starting point for understanding the field.
+[DOI](https://doi.org/10.1016/S0016-7061(03)00223-4)
+
+- Minasny, B., & McBratney, A. B. (2016). "Digital soil mapping: A brief history and some lessons."
+This article provides a concise history of DSM, highlighting key developments and lessons learned over the years. It’s written in an engaging, narrative style and avoids heavy technical jargon. It also discusses practical challenges and future directions.
+Level: Very beginner-friendly, assuming no prior knowledge.
+[DOI](https://doi.org/10.1016/j.geoderma.2015.07.017)
+
+- Padarian, J., Minasny, B., & McBratney, A. B. (2019). "Using deep learning for digital soil mapping."
+Open-access article introduces how modern machine learning (specifically convolutional neural networks) can be used in DSM. It explains complex concepts like spatial contextual information in a way that’s approachable, with clear examples. It’s great for understanding how technology is shaping DSM today.
+[DOI](https://doi.org/10.5194/soil-5-79-2019)
+
+- Arrouays, D., McBratney, A., Bouma, J., Libohova, Z., Richer-de-Forges, A. C., Morgan, C. L. S., et al. (2020). "Impressions of digital soil maps: The good, the not so good, and making them ever better."
+This article offers a reflective overview of DSM’s strengths and limitations. It’s written in a conversational tone, discussing real-world applications and challenges in a way that’s easy to follow. It’s perfect for understanding the practical side of DSM.
+[DOI](https://doi.org/10.1016/j.geodrs.2020.e00255)
+
+- Grunwald, S. (2011). "Digital Soil Mapping and Modeling at Continental Scales: Finding Solutions for Global Issues."
+Introduces DSM in the context of global challenges like food security. It explains how DSM works at large scales and includes clear diagrams and a proposed framework (STEP-AWBH).
+[DOI](https://doi.org/10.2136/sssaj2011.0029)
+
+- Silva, B. P. C., Silva, M. L. N., Avalos, F. A. P., Menezes, M. D. de, & Curi, N. (2019). "Digital soil mapping including additional point sampling in Posses ecosystem services pilot watershed, southeastern Brazil."
+This open-access article describes a practical DSM study in Brazil, comparing simple models like Random Forest and logistic regression. It includes a clear methodology and visuals, making it a great case study to see DSM in action.
+[DOI](https://doi.org/10.1038/s41598-019-50376-w), [link access](www.nature.com/articles/s41598-019-50376-w)
+
+- Book Chapter: Lagacherie, P., McBratney, A. B., & Voltz, M. (Eds.). (2006). "Digital Soil Mapping: An Introductory Perspective."
+This book compiles foundational chapters on DSM, with several introductory sections that explain concepts like soil covariates, GIS, and spatial prediction. 
+[DOI](10.1016/S0166-2481(06)31001-2) (for the book)
+Access: Available as a book or e-book through Elsevier or academic libraries. Individual chapters may be accessible via ScienceDirect.
+
+- Book: Digital Soil Mapping: A practical guide for field soil scientists
+This FAO guide is specifically designed for those new to DSM, particularly field soil scientists with minimal technical background. It provides a step-by-step introduction to DSM, explaining concepts like soil covariates, spatial data, and predictive modeling in plain language. The guide includes practical examples, case studies, and visuals, making it ideal for understanding how to apply DSM in real-world settings. It also covers tools like Google Earth Engine, which aligns with your previous request about GEE.
+
+Level: Beginner, assuming no prior knowledge of DSM or advanced GIS. Perfect for "level zero" learners.
+
+DOI: Not explicitly listed in the document. FAO reports often don’t use DOIs, but the stable URL serves as a permanent identifier.
+
+Access: Open access, freely available at https://openknowledge.fao.org/server/api/core/bitstreams/5628102c-c895-416b-bbf2-728cadf3bc70/content.
+
+Citation Details:
+Authors: Food and Agriculture Organization of the United Nations (FAO).
+
+Year: 2020.
+
+Title: Digital Soil Mapping: A practical guide for field soil scientists.
+
+Publisher: FAO.
+
+URL: https://openknowledge.fao.org/server/api/core/bitstreams/5628102c-c895-416b-bbf2-728cadf3bc70/content
+
+
+****
+
+
+Happy learning!🌱
+
 
 ---
 
@@ -145,9 +209,19 @@ You can find it from [sample_points_mk_soc_0_20cm data](https://github.com/Gelsl
 - **Start with `0_gee_notions.js`**: It’s a simple script to learn GEE basics.
 - **Run Scripts One at a Time**: Each script builds on the previous one. Start with `0`, then `1`, then `2`.
 - **Check Asset Paths**: For `2_Kenya_DSM_Modeling_sfv.js`, ensure your uploaded assets match the script paths.
-- **Save Your Work**: Save scripts in GEE to avoid losing progress.
+- **Save Your Work**: Save scripts in GEE to avoid losing progress.   
 - **Be Patient**: GEE processes data in the cloud, so some tasks may take a minute or two.
 
 ---
 
+
+
+
 Happy mapping! If you have questions, reach me out. Enjoy exploring Mount Kenya’s environmental data with Google Earth Engine! 🌍
+
+
+
+
+
+
+
