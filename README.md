@@ -166,6 +166,10 @@ This article offers a reflective overview of DSM’s strengths and limitations. 
 Introduces DSM in the context of global challenges like food security. It explains how DSM works at large scales and includes clear diagrams and a proposed framework (STEP-AWBH).
 [DOI](https://doi.org/10.2136/sssaj2011.0029)
 
+- Wadoux, A. M. J.-C., Minasny, B., & McBratney, A. B. (2020). "Machine learning for digital soil mapping: Applications, challenges and suggested solutions."
+An overview of machine learning in DSM, including Random Forest, with clear explanations.
+[DOI](https://doi.org/10.1016/j.geoderma.2019.114076)
+
 - Silva, B. P. C., Silva, M. L. N., Avalos, F. A. P., Menezes, M. D. de, & Curi, N. (2019). "Digital soil mapping including additional point sampling in Posses ecosystem services pilot watershed, southeastern Brazil."
 This open-access article describes a practical DSM study in Brazil, comparing simple models like Random Forest and logistic regression. It includes a clear methodology and visuals, making it a great case study to see DSM in action.
 [DOI](https://doi.org/10.1038/s41598-019-50376-w), [link access](www.nature.com/articles/s41598-019-50376-w)
@@ -175,31 +179,9 @@ This book compiles foundational chapters on DSM, with several introductory secti
 [DOI](10.1016/S0166-2481(06)31001-2) (for the book)
 Access: Available as a book or e-book through Elsevier or academic libraries. Individual chapters may be accessible via ScienceDirect.
 
-- Book: Digital Soil Mapping: A practical guide for field soil scientists
-This FAO guide is specifically designed for those new to DSM, particularly field soil scientists with minimal technical background. It provides a step-by-step introduction to DSM, explaining concepts like soil covariates, spatial data, and predictive modeling in plain language. The guide includes practical examples, case studies, and visuals, making it ideal for understanding how to apply DSM in real-world settings. It also covers tools like Google Earth Engine, which aligns with your previous request about GEE.
-
-Level: Beginner, assuming no prior knowledge of DSM or advanced GIS. Perfect for "level zero" learners.
-
-DOI: Not explicitly listed in the document. FAO reports often don’t use DOIs, but the stable URL serves as a permanent identifier.
-
-Access: Open access, freely available at https://openknowledge.fao.org/server/api/core/bitstreams/5628102c-c895-416b-bbf2-728cadf3bc70/content.
-
-Citation Details:
-Authors: Food and Agriculture Organization of the United Nations (FAO).
-
-Year: 2020.
-
-Title: Digital Soil Mapping: A practical guide for field soil scientists.
-
-Publisher: FAO.
-
-URL: https://openknowledge.fao.org/server/api/core/bitstreams/5628102c-c895-416b-bbf2-728cadf3bc70/content
-
-
-****
-
-
-Happy learning!🌱
+- **Book**: Digital Soil Mapping: A practical guide for field soil scientists, Food and Agriculture Organization of the United Nations (FAO), 2020.
+This FAO guide is specifically designed for those new to DSM, particularly field soil scientists with minimal technical background. It provides a step-by-step introduction to DSM, explaining concepts like soil covariates, spatial data, and predictive modeling in plain language. The guide includes practical examples, case studies, and visuals, making it ideal for understanding how to apply DSM in real-world settings.
+[link access](https://openknowledge.fao.org/server/api/core/bitstreams/5628102c-c895-416b-bbf2-728cadf3bc70/content).
 
 
 ---
@@ -213,9 +195,6 @@ Happy learning!🌱
 - **Be Patient**: GEE processes data in the cloud, so some tasks may take a minute or two.
 
 ---
-
-
-
 
 Happy mapping! If you have questions, reach me out. Enjoy exploring Mount Kenya’s environmental data with Google Earth Engine! 🌍
 
