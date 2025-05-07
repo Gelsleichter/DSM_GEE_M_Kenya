@@ -139,6 +139,7 @@ You can find it from [sample_points_mk_soc_0_20cm data](https://github.com/Gelsl
 
 - **GEE Datasets**: Explore available datasets at [developers.google.com/earth-engine/datasets](https://developers.google.com/earth-engine/datasets).
 - **Free GEE Course**: Learn more with this [free course](https://courses.spatialthoughts.com/end-to-end-gee.html).
+- **GEE Tutorials**: [tutorials/community/explore](https://developers.google.com/earth-engine/tutorials/community/explore).
 
 ### Papers about DSM
 
