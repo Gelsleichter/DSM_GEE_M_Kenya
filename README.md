@@ -184,7 +184,9 @@ Access: Available as a book or e-book through Elsevier or academic libraries. In
 This FAO guide is specifically designed for those new to DSM, particularly field soil scientists with minimal technical background. It provides a step-by-step introduction to DSM, explaining concepts like soil covariates, spatial data, and predictive modeling in plain language. The guide includes practical examples, case studies, and visuals, making it ideal for understanding how to apply DSM in real-world settings.
 [link access](https://openknowledge.fao.org/server/api/core/bitstreams/5628102c-c895-416b-bbf2-728cadf3bc70/content).
 
-
+- **Tutorial**: USDA, Forest Service, Geospatial Technology and Applications Center (GTAC)
+Follow each step in detail, covering the aspects of Digital Soil Mapping in GEE.
+[Exercise 4.2](https://github.com/Gelsleichter/DSM_GEE_M_Kenya/blob/main/USDA_Forest_Service_GTAC_04.2_DigitalSoilMappinginEarthEngine_RandomForestRegression.pdf)
 ---
 
 ## Tips for Success
